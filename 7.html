@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="7.js"></script>
+</head>
+<body>
+    <h1 class="text-primary">Register Employee</h1>
+
+    <form id="form" onsubmit="event.preventDefault(); registerEmployee()">
+        <div style="margin-bottom: 8px;">
+            <label for="">Ussername</label>
+            <input id="username" type="text" placeholder="Username" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <label for="">Password</label>
+            <input id="password" type="password" placeholder="Password" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <label for="">Email</label>
+            <input id="email" type="text" placeholder="Email" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <label for="">Mobile</label>
+            <input id="mobile" type="text" placeholder="Mobile" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <input type="submit" value="Register" >
+        </div>
+    </form>
+
+    <h2>Employee List</h2>
+    <div id="parent">
+        <div style="font-size: large;">
+            <span>rohit</span>
+            <span>!@!@@</span>
+            <span>rohit@gmail.com</span>
+            <span>121212121</span>
+            <span style="margin-left: 16px; cursor: pointer;">&#10060;</span>
+        </div>
+    </div>
+
+</body>
+</html>
